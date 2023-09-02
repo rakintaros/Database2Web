@@ -21,10 +21,8 @@
     <?php
     require 'connect.php';
     // Perpare and execute a SELECT statement
-    $stmt = $conn->prepare("SELECT * FROM tb_section");
-    $stmt->execute();
-    // Fetch data
-    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    $query = "SELECT * FROM tb_section";
+    $stmt = $db->query($query);
     ?>
     <div class="container">
         <h2>Section Data</h2>
