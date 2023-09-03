@@ -35,8 +35,8 @@
         <table class="table table-dark form-control">
 
             <tr>
-                <th>SECT_NAME</th>
-                <th>SECT_TELEPHONE</th>
+                <th style="width: 1000px;">SECT_NAME</th>
+                <th style="width: 1000px;">SECT_TELEPHONE</th>
             </tr>
 
 
